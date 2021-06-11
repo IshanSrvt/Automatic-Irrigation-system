@@ -1,7 +1,13 @@
 #include <AFMotor.h>
+
+
+//Connect moisture sensor to pin A0 on arduino
+//Connect Water motor to Motor shield, Motor 1
+
 int output_value ;
 int water; //random variable
-int Moist_sensor = A0; //moisture sensor
+int Moist_sensor = A0; //Mois Sensor
+
 AF_DCMotor motor1(1);
 
 void setup() {
